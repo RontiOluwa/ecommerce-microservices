@@ -350,7 +350,7 @@ services:
       - AP_GATEWAY_URL=http://gateway_container:4000
       - CLIENT_URL=http://localhost:3000
       - RABBITMQ_ENDPOINT=amqp://jobber:jobberpass@rabbitmq_container:5672
-      - STRIPE_API_KEY=
+      # - STRIPE_API_KEY=
       - CLOUD_NAME=dyamr9ym3
       - CLOUD_API_KEY=385269193982147
       - CLOUD_API_SECRET=-h9hU43QMy68AcIaMyP0ULKbibI
